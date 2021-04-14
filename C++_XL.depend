@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1615549482 source:e:\codes\cpp\c++_xl\array.cpp
+	<iostream>
+
+1617904266 source:e:\codes\cpp\c++_xl\recursion.cpp
+	<iostream>
+
+1616065083 source:e:\codes\cpp\c++_xl\graph.cpp
+	<iostream>
+
+1618230332 source:e:\codes\cpp\c++_xl\main.cpp
+	<iostream>
+	"header.h"
+
+1618230349 e:\codes\cpp\c++_xl\header.h
+
+1618230368 source:e:\codes\cpp\c++_xl\sorting.cpp
+	<iostream>
+
