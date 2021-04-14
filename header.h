@@ -37,7 +37,7 @@ void permu(string str, int s = 0, int e=0);  //permutations (selfmade 50%)
 
 
 
-// R E C U R S I O N
+// S O R T I N G
 void bubble_sort(int arr[], int n);   //bubble sort
 void selection_sort(int arr[], int n); // selection sort
 void isort(int arr[], int n); // insertion sort
