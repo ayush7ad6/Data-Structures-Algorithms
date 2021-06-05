@@ -1,19 +1,38 @@
 # depslib dependency file v1.0
-1615549482 source:e:\codes\cpp\c++_xl\array.cpp
+1618430778 source:e:\codes\cpp\c++_xl\array.cpp
 	<iostream>
 
-1617904266 source:e:\codes\cpp\c++_xl\recursion.cpp
+1618430778 source:e:\codes\cpp\c++_xl\recursion.cpp
 	<iostream>
 
-1616065083 source:e:\codes\cpp\c++_xl\graph.cpp
+1618430778 source:e:\codes\cpp\c++_xl\graph.cpp
 	<iostream>
 
-1618230332 source:e:\codes\cpp\c++_xl\main.cpp
+1622700032 source:e:\codes\cpp\c++_xl\main.cpp
+	"header.h"
+	"hashing.h"
+
+1622700054 e:\codes\cpp\c++_xl\header.h
 	<iostream>
+
+1621950834 source:e:\codes\cpp\c++_xl\sorting.cpp
+	<iostream>
+
+1622622871 source:e:\codes\cpp\c++_xl\string.cpp
+	<iostream>
+	<string>
 	"header.h"
 
-1618230349 e:\codes\cpp\c++_xl\header.h
-
-1618230368 source:e:\codes\cpp\c++_xl\sorting.cpp
+1618430778 e:\codes\cpp\c++_xl\recursion.cpp
 	<iostream>
+
+1622628316 source:e:\codes\cpp\c++_xl\searching.cpp
+	<iostream>
+	<string>
+	"header.h"
+
+1622699752 source:e:\codes\cpp\c++_xl\hashing.cpp
+
+1622700060 e:\codes\cpp\c++_xl\hashing.h
+	<list>
 

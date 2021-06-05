@@ -1,18 +1,19 @@
-#include <iostream>
+//#include <iostream>
 
 #include "header.h"
+#include "hashing.h"
 
-using namespace::std;
+//using namespace::std;
 
 int main()
 {
-    int a[] = {0,50,0,60,0,30};
-
-    z_right(a,6);
+    struct chaining A(7);
 
 
+    A.insert(10);
+    A.remove(10);
+    cout<<A.search(10);
 
-    //permu(a);       //c++ does not allow array entirely into func
     return 0;
 }
 

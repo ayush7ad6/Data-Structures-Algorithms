@@ -1,6 +1,11 @@
 #ifndef HEADER_A_H_INCLUDED
 #define HEADER_A_H_INCLUDED
+
+#include <iostream>
+
+
 using namespace std;
+
 
 //A R R A Y S
 
@@ -41,6 +46,47 @@ void permu(string str, int s = 0, int e=0);  //permutations (selfmade 50%)
 void bubble_sort(int arr[], int n);   //bubble sort
 void selection_sort(int arr[], int n); // selection sort
 void isort(int arr[], int n); // insertion sort
+void mergesort(int arr[], int l, int r); // merge sort function
+void merge(int arr[], int l, int m, int r);  //merge function
+void partition(int arr[], int l, int p, int r);   //naive partition
+int lomuto(int arr[], int l, int r);           //lumoto partition
+int hoares(int arr[], int l, int r);           //hoare's partition
+void quicksort(int arr[], int l, int r);        //lomuto partition
+void ncsort(int arr[], int n, int k);            //counting sort naive
+void csort(int arr[], int n, int k);            //counting sort general
+void rsort(int arr[], int n);                   //radix sort
+void rcsort(int arr[], int n, int exp);         //counting routine
+
+
+
+// S T R I N G
+bool anagram(string s1, string s2);   //to check if two strings are permutations of each other
+int leftindex(string s);              //index for the leftmost repeating character
+int nonrepeat(string s);        //index for the leftmost non repeating character
+int lexirank(string s);         //rank
+bool anagrampresent(string txt, string pat);    //substring continuous present
+bool aresame(int c, int cc);            //compare two
+bool rotation(string s1, string s2);        //check it two strings are rotations
+
+
+
+
+
+
+// S E A R C H I N G
+int binarysearch(int arr[], int n, int num);
+int recbsearch(int arr[], int low, int high, int num);  //recursive binary search
+
+
+// H A S H I N G in hashing.h
+
+
+
+
+
+
+
+
 
 
 
