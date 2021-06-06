@@ -7,12 +7,19 @@
 
 int main()
 {
-    struct chaining A(7);
+    hashlp a(7);
+    a.insert(49);
+    a.insert(50);
+    a.insert(63);
+    a.insert(64);
+    a.insert(69);
+    a.insert(68);
+    a.getSize();
+    a.remove(69);
+    a.getSize();
+    a.insert(99);
 
-
-    A.insert(10);
-    A.remove(10);
-    cout<<A.search(10);
+    a.insert(99);
 
     return 0;
 }
