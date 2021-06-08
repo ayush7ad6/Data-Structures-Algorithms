@@ -80,6 +80,8 @@ int recbsearch(int arr[], int low, int high, int num);  //recursive binary searc
 
 // H A S H I N G in hashing.h
 
+// L I N K E D  L I S T S  in linkedl.h
+
 
 
 

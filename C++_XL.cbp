@@ -35,6 +35,7 @@
 		<Unit filename="graph.cpp" />
 		<Unit filename="hashing.h" />
 		<Unit filename="header.h" />
+		<Unit filename="linkedlist.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="recursion.cpp" />
 		<Unit filename="searching.cpp" />

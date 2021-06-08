@@ -8,11 +8,12 @@
 1618430778 source:e:\codes\cpp\c++_xl\graph.cpp
 	<iostream>
 
-1622872816 source:e:\codes\cpp\c++_xl\main.cpp
+1623129747 source:e:\codes\cpp\c++_xl\main.cpp
 	"header.h"
 	"hashing.h"
+	"linkedlist.h"
 
-1622700054 e:\codes\cpp\c++_xl\header.h
+1622959667 e:\codes\cpp\c++_xl\header.h
 	<iostream>
 
 1621950834 source:e:\codes\cpp\c++_xl\sorting.cpp
@@ -33,6 +34,8 @@
 
 1622699752 source:e:\codes\cpp\c++_xl\hashing.cpp
 
-1622872961 e:\codes\cpp\c++_xl\hashing.h
+1622873219 e:\codes\cpp\c++_xl\hashing.h
 	<list>
+
+1623129736 e:\codes\cpp\c++_xl\linkedlist.h
 

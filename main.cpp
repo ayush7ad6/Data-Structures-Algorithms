@@ -2,24 +2,24 @@
 
 #include "header.h"
 #include "hashing.h"
+#include "linkedlist.h"
 
 //using namespace::std;
 
 int main()
 {
-    hashlp a(7);
-    a.insert(49);
-    a.insert(50);
-    a.insert(63);
-    a.insert(64);
-    a.insert(69);
-    a.insert(68);
-    a.getSize();
-    a.remove(69);
-    a.getSize();
-    a.insert(99);
+    Node *head = NULL;
+    head = insertSort(head,4);
+    head = insertSort(head,33);
+    head = insertSort(head,34);
+    head = insertSort(head, 30);
 
-    a.insert(99);
+    printList(head);
+
+    RemoveDup(head);
+    cout<<endl;
+    printList(head);
+
 
     return 0;
 }
