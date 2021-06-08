@@ -8,4 +8,8 @@ Driver Code- _main.cpp_    Header File- _header.h_
 ### Topics:  
 1. Array- _array.cpp_
 2. Recursion- _recursion.cpp_
-3. Sorting- _sorting.cpp_
+3. Sorting- _sorting.cpp_  
+4. String- _string.cpp_
+5. Searching- _searching.cpp_
+6. Hashing- _hashing.h_  (used class/structure)
+7. Linked List- _linkedlist.h_  (used class/structure)
