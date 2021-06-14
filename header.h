@@ -2,6 +2,8 @@
 #define HEADER_A_H_INCLUDED
 
 #include <iostream>
+#include <string>
+
 
 
 using namespace std;
@@ -82,8 +84,15 @@ int recbsearch(int arr[], int low, int high, int num);  //recursive binary searc
 
 // L I N K E D  L I S T S  in linkedl.h
 
+//S T A C K
+bool isBalanced(string str);        //balanced bracket checking using stack STL
 
+void toPostfix(string str);       //conversion
+string isWhat(char c);              //operator or operand
+bool isHigh(char s, char c);        //precedence high
 
+int EPostfix(string s);             //evaluate postfix expression
+int evaluate(int op1, int op2, char op);        //evaluate arithmetic
 
 
 

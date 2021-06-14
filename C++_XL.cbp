@@ -37,9 +37,11 @@
 		<Unit filename="header.h" />
 		<Unit filename="linkedlist.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="queue.h" />
 		<Unit filename="recursion.cpp" />
 		<Unit filename="searching.cpp" />
 		<Unit filename="sorting.cpp" />
+		<Unit filename="stack.cpp" />
 		<Unit filename="string.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
