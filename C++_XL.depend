@@ -8,13 +8,16 @@
 1618430778 source:e:\codes\cpp\c++_xl\graph.cpp
 	<iostream>
 
-1623665958 source:e:\codes\cpp\c++_xl\main.cpp
+1624514456 source:e:\codes\cpp\c++_xl\main.cpp
 	"header.h"
 	"hashing.h"
 	"linkedlist.h"
 	"queue.h"
+	"tree.h"
+	"bst.h"
+	"minheap.h"
 
-1623401592 e:\codes\cpp\c++_xl\header.h
+1624253770 e:\codes\cpp\c++_xl\header.h
 	<iostream>
 	<string>
 
@@ -46,6 +49,14 @@
 	<string>
 	<iostream>
 
-1623665971 e:\codes\cpp\c++_xl\queue.h
+1623666817 e:\codes\cpp\c++_xl\queue.h
 	<list>
+	<queue>
+
+1624262205 e:\codes\cpp\c++_xl\tree.h
+	<stack>
+
+1624254444 e:\codes\cpp\c++_xl\bst.h
+
+1624514903 e:\codes\cpp\c++_xl\minheap.h
 

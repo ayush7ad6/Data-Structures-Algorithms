@@ -95,6 +95,10 @@ int EPostfix(string s);             //evaluate postfix expression
 int evaluate(int op1, int op2, char op);        //evaluate arithmetic
 
 
+//B I N A R Y  S E A R C H  T R E E
+
+
+
 
 
 
