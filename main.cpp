@@ -9,21 +9,17 @@
 #include "minheap.h"
 
 
-//using namespace::std;
+
 
 int main()
 {
-    int a[] = {10,50,20,30,40,31};
-    MinHeap heap(6,a);
-    heap.show();
-    heap.heapify(0);
-    heap.show();
-    cout<<heap.extractMin()<<endl;
-    heap.show();
-    heap.decreaseKey(3,1);
-    heap.show();
-    heap.deleteNode(0);
-    heap.show();
+    //SORTING
+    int arr[] = {4,2,3,1,34,5,53};
+    isort(arr,7);
+
+
+
+
     return 0;
 }
 

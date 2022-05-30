@@ -1,14 +1,19 @@
 # depslib dependency file v1.0
-1618430778 source:e:\codes\cpp\c++_xl\array.cpp
+1643883441 source:e:\codes\cpp\c++_xl\array.cpp
 	<iostream>
+
+1624865795 
 
 1618430778 source:e:\codes\cpp\c++_xl\recursion.cpp
 	<iostream>
 
-1618430778 source:e:\codes\cpp\c++_xl\graph.cpp
+1624865795 source:e:\codes\cpp\c++_xl\graph.cpp
 	<iostream>
+	<string>
+	<vector>
+	<queue>
 
-1624514456 source:e:\codes\cpp\c++_xl\main.cpp
+1643879477 source:e:\codes\cpp\c++_xl\main.cpp
 	"header.h"
 	"hashing.h"
 	"linkedlist.h"
@@ -17,9 +22,16 @@
 	"bst.h"
 	"minheap.h"
 
-1624253770 e:\codes\cpp\c++_xl\header.h
+1624865750 "
+
+1627889251 e:\codes\cpp\c++_xl\header.h
 	<iostream>
 	<string>
+	<vector>
+	<queue>
+	<bits/stdc++.h>
+
+1627889251 ++.h>
 
 1621950834 source:e:\codes\cpp\c++_xl\sorting.cpp
 	<iostream>
@@ -58,5 +70,99 @@
 
 1624254444 e:\codes\cpp\c++_xl\bst.h
 
-1624514903 e:\codes\cpp\c++_xl\minheap.h
+1624690682 e:\codes\cpp\c++_xl\minheap.h
+
+1643883441 source:/media/rudra/HDD2/Codes/CPP/C++_XL/array.cpp
+	<iostream>
+	<iostream>
+
+1624865795 source:/media/rudra/HDD2/Codes/CPP/C++_XL/graph.cpp
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+
+1643879477 source:/media/rudra/HDD2/Codes/CPP/C++_XL/main.cpp
+	"header.h"
+	"hashing.h"
+	"linkedlist.h"
+	"queue.h"
+	"tree.h"
+	"bst.h"
+	"minheap.h"
+	"header.h"
+	"hashing.h"
+	"linkedlist.h"
+	"queue.h"
+	"tree.h"
+	"bst.h"
+	"minheap.h"
+
+1627889251 /media/rudra/HDD2/Codes/CPP/C++_XL/header.h
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+	<bits/stdc++.h>
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+	<bits/stdc++.h>
+
+1622873219 /media/rudra/HDD2/Codes/CPP/C++_XL/hashing.h
+	<list>
+	<list>
+
+1623129889 /media/rudra/HDD2/Codes/CPP/C++_XL/linkedlist.h
+
+1623666817 /media/rudra/HDD2/Codes/CPP/C++_XL/queue.h
+	<list>
+	<queue>
+	<list>
+	<queue>
+
+1624262205 /media/rudra/HDD2/Codes/CPP/C++_XL/tree.h
+	<stack>
+	<stack>
+
+1624254444 /media/rudra/HDD2/Codes/CPP/C++_XL/bst.h
+
+1624690682 /media/rudra/HDD2/Codes/CPP/C++_XL/minheap.h
+
+1618430778 source:/media/rudra/HDD2/Codes/CPP/C++_XL/recursion.cpp
+	<iostream>
+	<iostream>
+
+1622628316 source:/media/rudra/HDD2/Codes/CPP/C++_XL/searching.cpp
+	<iostream>
+	<string>
+	"header.h"
+	<iostream>
+	<string>
+	"header.h"
+
+1621950834 source:/media/rudra/HDD2/Codes/CPP/C++_XL/sorting.cpp
+	<iostream>
+	<iostream>
+
+1623401783 source:/media/rudra/HDD2/Codes/CPP/C++_XL/stack.cpp
+	<stack>
+	<string>
+	<iostream>
+	<stack>
+	<string>
+	<iostream>
+
+1622622871 source:/media/rudra/HDD2/Codes/CPP/C++_XL/string.cpp
+	<iostream>
+	<string>
+	"header.h"
+	<iostream>
+	<string>
+	"header.h"
 
