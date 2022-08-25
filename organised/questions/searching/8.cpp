@@ -1,0 +1,5 @@
+/*
+    count pairs with given sum
+    count triplets with given sum
+    find pythagorean
+*/

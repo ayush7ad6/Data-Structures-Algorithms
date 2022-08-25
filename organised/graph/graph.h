@@ -14,7 +14,22 @@ void addEdge(vector<int> adj[], int u, int v, bool dir = false)
         adj[u].push_back(v);
     }
 }
+void addEdgeWt(vector<pair<int, int>> adj[], int u, int v, int w)
+{
+    adj[v].push_back({u, w});
+    adj[u].push_back({v, w});
+}
 
+void showWtGraph(vector<pair<int, int>> adj[], int V)
+{
+    for (int u = 0; u < V; ++u)
+    {
+        cout << u << "-> ";
+        for (auto v : adj[u])
+            cout << v.first << "-" << v.second << "  ";
+        cout << endl;
+    }
+}
 void showGraph(vector<int> adj[], int v)
 {
     for (int i = 0; i < v; ++i)

@@ -1,11 +1,15 @@
-#include "searching.cpp"
-#include "sorting.cpp"
-#include "linkedlist.cpp"
-#include "Tree/bst.cpp"
-#include "Tree/heap.cpp"
-#include "Graph/graph.h"
-#include "Graph/undirected.h"
-#include "Graph/directed.h"
+// #include "searching.cpp"
+// #include "sorting.cpp"
+// #include "linkedlist.cpp"
+// #include "Tree/bst.cpp"
+// #include "Tree/heap.cpp"
+// #include "Graph/graph.h"
+#include "Graph/advance/kruskal.cpp"
+
+// #include "Graph/undirected.h"
+// #include "Graph/directed.h"
+// #include "disjointSet\simpleImpelementation.cpp"
+// #include "disjointSet\unioByRank.cpp"
 
 using namespace std;
 
@@ -65,48 +69,83 @@ int main()
     //     cout << x << " ";
 
     //                  G  R  A  P  H
-    int v = 7;
-    vector<int> adj[v];
-    addEdge(adj, 1, 2);
-    addEdge(adj, 1, 3);
-    addEdge(adj, 1, 6);
-    addEdge(adj, 2, 5);
-    addEdge(adj, 3, 4);
-    addEdge(adj, 4, 6);
-    addEdge(adj, 5, 6);
-    showGraph(adj, v);
-    cout << endl
-         << "BFS:";
-    // bfs(adj, v, 0);
-    cout << endl;
-    bfsDis(adj, v);
+    // int v = 7;
+    // vector<int> adj[v];
+    // addEdge(adj, 1, 2);
+    // addEdge(adj, 1, 3);
+    // addEdge(adj, 1, 6);
+    // addEdge(adj, 2, 5);
+    // addEdge(adj, 3, 4);
+    // addEdge(adj, 4, 6);
+    // addEdge(adj, 5, 6);
+    // showGraph(adj, v);
+    // cout << endl
+    //      << "BFS:";
+    // // bfs(adj, v, 0);
     // cout << endl;
-    cout << "\nConnected Components: " << connectedComp(adj, v);
+    // bfsDis(adj, v);
+    // // cout << endl;
+    // cout << "\nConnected Components: " << connectedComp(adj, v);
 
-    cout << endl;
-    cout << "DFS: ";
-    dfs(adj, v);
+    // cout << endl;
+    // cout << "DFS: ";
+    // dfs(adj, v);
 
-    cout << endl;
+    // cout << endl;
 
-    int vn = 5;
-    vector<int> arr[vn];
-    addEdge(arr, 0, 1, true);
-    addEdge(arr, 1, 2, true);
-    addEdge(arr, 2, 3, true);
-    // addEdge(arr, 3, 0, true);
+    // int vn = 5;
+    // vector<int> arr[vn];
+    // addEdge(arr, 0, 1, true);
+    // addEdge(arr, 1, 2, true);
+    // addEdge(arr, 2, 3, true);
+    // // addEdge(arr, 3, 0, true);
 
-    addEdge(arr, 4, 2, true);
-    addEdge(arr, 0, 2, true);
+    // addEdge(arr, 4, 2, true);
+    // addEdge(arr, 0, 2, true);
 
-    // addEdge(arr, 4, 3, true);
-    showGraph(arr, vn);
-    // cyclePresentDir(arr, vn);
-    cout << cyclePresentKahn(arr, vn);
-    cout << "\nTopological Sorting: ";
-    topologicalBFS(arr, vn);
-    cout << endl
-         << "Topological Sorting using DFS: ";
-    topologicalDFS(arr, vn);
-    return 0;
+    // // addEdge(arr, 4, 3, true);
+    // showGraph(arr, vn);
+    // // cyclePresentDir(arr, vn);
+    // cout << cyclePresentKahn(arr, vn);
+    // cout << "\nTopological Sorting: ";
+    // topologicalBFS(arr, vn);
+    // cout << endl
+    //      << "Topological Sorting using DFS: ";
+    // topologicalDFS(arr, vn);
+
+    // U N I O N   F I N D
+    // UnionByRank ds(5);
+
+    // cout << ds.find(2);
+    // cout << endl;
+    // ds.unionSet(0, 1);
+    // ds.unionSet(2, 3);
+    // ds.unionSet(3, 4);
+    // ds.show();
+
+    // ds.unionSet(1, 4);
+    // cout << endl;
+    // ds.show();
+    // cout << endl;
+    // ds.showrank();
+
+    // G R A P H   A D V A N C E
+    // K R U S K A L   A L G O
+
+    // vector<edge> edges;
+    // addEdge(edges, 0, 1, 6);
+    // addEdge(edges, 0, 2, 5);
+    // addEdge(edges, 1, 2, 3);
+    // addEdge(edges, 1, 3, 8);
+    // addEdge(edges, 2, 3, 7);
+    // addEdge(edges, 2, 4, 12);
+    // addEdge(edges, 3, 4, 10);
+    // show(edges);
+
+    // cout << endl
+    //      << endl;
+    // sort(edges.begin(), edges.end(), compareEdge);
+    // show(edges);
+    // cout << kruskal(edges, 5);
+    // return 0;
 }
